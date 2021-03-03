@@ -1,6 +1,6 @@
 # 使用方法和说明
 
-使用docker运行一个简易web服务器： 服务器的文件为 [turndown-markdown](https://github.com/okay456okay/turndown)的内容。
+使用docker运行一个nginx服务器： 容器/usr/share/nginx/html目录内的文件为 [turndown-markdown](https://github.com/okay456okay/turndown)的内容。
 ```shell
 docker run -d -p 8080:80 okay456okay/turndown-markdown:master 
 ``` 
@@ -9,7 +9,7 @@ docker run -d -p 8080:80 okay456okay/turndown-markdown:master
 
 # Usage
 
-Use Docker to run a simple web server: html contents are from [turndown-markdown](https://github.com/okay456okay/turndown)
+Use Docker to run a nginx server: /usr/share/nginx/html contents are from [turndown-markdown](https://github.com/okay456okay/turndown)
 ```shell
 docker run -d -p 8080:80 okay456okay/turndown-markdown:master 
 ``` 
