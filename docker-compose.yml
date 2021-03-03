@@ -1,0 +1,8 @@
+version: "2"
+services:
+  turndown:
+    image: okay456okay/turndown-markdown:master
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+

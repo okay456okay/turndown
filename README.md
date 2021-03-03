@@ -1,3 +1,21 @@
+# 使用方法和说明
+
+使用docker运行一个简易web服务器： 服务器的文件为 [turndown-markdown](https://github.com/okay456okay/turndown)的内容。
+```shell
+docker run -d -p 8080:80 okay456okay/turndown-markdown:master 
+``` 
+
+打开 http://127.0.0.1:8000 即可
+
+# Usage
+
+Use Docker to run a simple web server: html contents are from [turndown-markdown](https://github.com/okay456okay/turndown)
+```shell
+docker run -d -p 8080:80 okay456okay/turndown-markdown:master 
+``` 
+
+Open http://127.0.0.1:8000 , enjoy.
+
 # Turndown
 
 [![Build Status](https://travis-ci.org/domchristie/turndown.svg?branch=master)](https://travis-ci.org/domchristie/turndown)
